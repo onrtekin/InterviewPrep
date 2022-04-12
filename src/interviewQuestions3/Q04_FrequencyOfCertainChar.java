@@ -15,7 +15,7 @@ public class Q04_FrequencyOfCertainChar {
         System.out.print("Bir isim giriniz : ");
         String isim = scan.nextLine();
         System.out.print("bir karakter giriniz :");
-        char karakter = scan.next().charAt(0); //tek karakteri alir
+        char karakter = scan.nextLine().charAt(0); //tek karakteri alir
 
         int sayac = 0;
         for (int i = 0; i < isim.length(); i++) {
